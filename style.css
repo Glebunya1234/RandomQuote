@@ -1,0 +1,10 @@
+.my-button {
+  transition: transform 0.1s ease-in-out; /* добавляем плавное переходное свойство */
+}
+
+.my-button:hover {
+  transform: scale(1.1); /* увеличиваем размер кнопки на 10% при наведении */
+}
+.my-button:active {
+  transform: scale(0.9);
+}

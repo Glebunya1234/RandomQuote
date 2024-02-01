@@ -1,9 +1,20 @@
 /** @type {import('tailwindcss').Config} */
+// 
 module.exports = {
-content: ["*.html"],
+  purge: [],
+  content: ["*.html"],
+  darkMode: false, // или 'media' или 'class'
   theme: {
-    extend: {},
+    extend: {
+      scale: {
+        'hover-110': '1.1',
+      },
+    },
+  },
+  variants: {
+    extend: {
+      scale: ['hover'], // включить масштабирование при наведении
+    },
   },
   plugins: [],
 }
-
