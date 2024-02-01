@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="output.css">
+
+</head>
+
+<body
+    class="h-screen flex justify-center bg-cover bg-[url('https://cdn.pixabay.com/photo/2020/12/23/14/41/forest-5855196_1280.jpg')] ">
+    <main class="relative h-full w-[500px] text-white flex flex-col items-center justify-center ">
+        <!-- <div class="border-white/50   border-[15px] -z-10 w-[320px] h-[420px] absolute"></div> -->
+        <h1 class="text-2xl font-bold my-2">Random QuoteMachine</h1>
+        <div class="border-white/30 h-28 border-b-0  border-[15px] w-[320px] "></div>
+        <div class="flex justify-between w-full "><i class="fa fa-3x  fa-quote-left"></i></div>
+
+        <cite id="quote-text" class="text-center text-white  font-semibold text-3xl">
+            Quota...
+        </cite>
+
+        <div class="flex justify-end w-full "><i class=" fa fa-3x  fa-quote-right"></i></div>
+        <p id="quote-author" class="text-xl font-semibold ">Author...</p>
+        <div class="border-white/30 h-28 border-t-0  border-[15px] w-[320px] "></div>
+        <nav class="mt-10">
+            <button id="new-quote-btn"
+                class="shadow-lg backdrop-blur-sm bg-black/20 text-white text-sm px-7 py-3 rounded-lg">
+                Refresh quota</button>
+        </nav>
+
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="func1.js"></script>
+
+</html>
