@@ -21,6 +21,6 @@ $(document).ready(function () {
 
 const displayQuote = (quote) => {
   $("#quote-text").text(quote.content);
-  $("#quote-author").text(quote.author);
+  $("#quote-author").text(quote.author); 
 };
 
